@@ -13,7 +13,7 @@ def partition (a, start, end):
 
     for j in range(start,end):  
         # If current element is smaller than or equal to the pivot  
-        if (a[j] <= pivot):
+        if (a[j] < pivot):
             print("\n",j)
             print("\n{} is less than {}".format(a[j],pivot))  
             i = i + 1  
