@@ -1,4 +1,4 @@
-import numpy as np
+
 def merge(arr,beg,mid,end):
 
     n1 = mid-beg+1
